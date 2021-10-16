@@ -109,7 +109,7 @@ function App() {
 
                         <div className="pt-12">
                             <div>
-                                <button onClick={() => transactContractWithWallet(orcsContract, proxyContract, 'setApprovalForAll', true)}>setApprovalForAll (Step 3</button>
+                                <button onClick={() => transactContractWithWallet(orcsContract, proxyContract, 'setApprovalForAll', true)}>setApprovalForAll (Step 3)</button>
                             </div>
                         </div> 
 
