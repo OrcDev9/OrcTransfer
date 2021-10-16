@@ -14,7 +14,7 @@ function App() {
 
     
     const [orcsContract, setOrcsContract] = useState('0x7d9d3659dcfbea08a87777c52020BC672deece13');
-    const [proxyContract, setProxyContract] = useState('0x7cD518787b42f94Db3d6d22e19dA630dA11E8101');
+    const [proxyContract, setProxyContract] = useState('0x2D9D0321D7F6Bcee4A7b91E93C7e1e359EDD310C');
 
 
     // const [approved, setApproved] = useState('');
