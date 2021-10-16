@@ -75,7 +75,7 @@ function App() {
                 }
                 {address &&
                     <div className="mb-12">
-                        <div className="text-gray-400 mb-8">Connected as: {formatAddress(address)} on {networkIdToName(chainId)}</div>
+                        <div className="text-gray-400 mb-8">Step 1 Complete, Connected as: {formatAddress(address)} on {networkIdToName(chainId)}</div>
                         {!tokenIds && <div>Fetching tokens...</div>}
 
                         {!!tokenIds &&
@@ -114,7 +114,7 @@ function App() {
                         </div> 
 
 
-                        <div className="mb-2 mt-10">Migrate Single Orcs (single int):</div>
+                        <div className="mb-2 mt-10">Step 4, Migrate Single Orcs (single int):</div>
                         <div className="flex">
                             <div>
                             <input type="text" style={{width: 450}} value={singleint} onChange={e => setSingleint(e.target.value)}></input>
@@ -136,7 +136,7 @@ function App() {
                         </div>
 
 
-                        <div className="mb-2 mt-10">Migrate Many Orcs (comma separated):</div>
+                        <div className="mb-2 mt-10">Step 4, Migrate Many Orcs (comma separated):</div>
                         <div className="flex mb-48">
                             <div>
                             <input type="text" style={{width: 450}} value={ints} onChange={e => setInts(e.target.value)}></input>
