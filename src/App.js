@@ -13,7 +13,7 @@ doActionWithManyOrcs } from './lib/blockchain';
 function App() {
 
     
-    const [orcsContract, setOrcsContract] = useState('0xf40E6e68c13e7D445638928e74715bed30FdfE1A');
+    const [orcsContract, setOrcsContract] = useState('0x7d9d3659dcfbea08a87777c52020BC672deece13');
     const [proxyContract, setProxyContract] = useState('0x7cD518787b42f94Db3d6d22e19dA630dA11E8101');
 
 
