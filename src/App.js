@@ -76,7 +76,7 @@ function App() {
                 {address &&
                     <div className="mb-12">
                         <div className="text-gray-400 mb-8">Step 1 Complete, Connected as: {formatAddress(address)} on {networkIdToName(chainId)}</div>
-                        {!tokenIds && <div>Fetching tokens...</div>}
+                        {!tokenIds && <div>Fetching tokens, please wait...</div>}
 
                         {!!tokenIds &&
                             <div style={{padding: 10, width: 300, borderRadius: 10, border: '1px solid rgba(255, 255, 255, 0.4)', overflow: 'scroll', height: 200}}>
