@@ -64,24 +64,13 @@ function App() {
     return (
         <div>
 
-            
 
             <div className="max-w-5xl mt-24 mb-12 mx-auto">
-
-                <div className="mb-2">Orcs contract (address):</div>
-                <div className="mb-4">
-                    <input type="text" value={orcsContract} style={{width: 450}} onChange={e => setOrcsContract(e.target.value)}></input>
-                </div>
-
-                <div className="mb-2">Proxy contract (address):</div>
-                <div className="mb-12">
-                    <input type="text" value={proxyContract} style={{width: 450}} onChange={e => setProxyContract(e.target.value)}></input>
-                </div>
 
 
                 {!address &&
                     <div className="mb-12">
-                        <button onClick={() => connectWallet()}>Connect with Metamask</button>
+                        <button onClick={() => connectWallet()}>Connect with Metamask (Step 1)</button>
                     </div>
                 }
                 {address &&
