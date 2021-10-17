@@ -25,7 +25,7 @@ export async function getTokenIdsForAddress(contract){
     var tokenIds = [];
     let calls = [];
     let results = [];
-    for (let index = 1; index < 4234; index++) {
+    for (let index = 1; index < 4355; index++) {
         calls.push(orcContract.ownerOf(index));
         if (calls.length === 300) {
             let partial = await ethcallProvider.all(calls);
